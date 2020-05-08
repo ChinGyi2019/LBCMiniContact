@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083367899604",
+    "firebase_url": "https://lbcminicontact.firebaseio.com",
+    "project_id": "lbcminicontact",
+    "storage_bucket": "lbcminicontact.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083367899604:android:941acd5e91fde216",
+        "android_client_info": {
+          "package_name": "com.chingyi.user.lbcminicontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083367899604-fhij5f0fd2m7nimlvqen2g9vqtv6h6qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chingyi.user.lbcminicontact",
+            "certificate_hash": "851beee1cfb727632b9efb2e14687f538b0f674e"
+          }
+        },
+        {
+          "client_id": "1083367899604-nrppmh1tj1tgkufsk065mu4gej6rg2cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEFOR1oM9ueNrx7NDxZsL274Qy5ZXE0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083367899604-nrppmh1tj1tgkufsk065mu4gej6rg2cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

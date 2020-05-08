@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MinoActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mino_searchToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/mino_materialsearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:searchBackground="@color/colorPrimary"
+        app:searchSuggestionBackground="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:searchCloseIcon="@drawable/ic_close"
+        app:searchBackIcon="@drawable/back_arrow"
+        app:searchSuggestionIcon="@drawable/suggestion"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mino_mSearchListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mino_searchToolbar"></android.support.v7.widget.RecyclerView>
+
+
+</android.support.constraint.ConstraintLayout>
