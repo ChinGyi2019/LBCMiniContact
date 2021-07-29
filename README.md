@@ -1,7 +1,7 @@
 # LBCMiniContact
 <h2>LBC Mini Contact App</h2>
 
-<p>It was build for my Church. The purpose is to contact each other in our church members. The data backend was build with Firebase realtime Database. </p>
+<p>It was build for my Church. The purpose is to contact each other in our church members easily. The data backend was build with Firebase realtime Database. </p>
 
 <p><img name = "Home Screen I" src="https://github.com/ChinGyi2019/MovieApp--Android-CleanArchitecture-/blob/main/dummy/lbc/224017283_829817291005224_173570118146243793_n.jpg" width="200" height="400" /> 
   
